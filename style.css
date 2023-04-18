@@ -1,0 +1,66 @@
+.est-externo{
+  color: crimson;
+}
+
+/*
+estructura del css
+
+1) selector --> identificador de la clase
+2) bloque  de declaracion --> integrar las propiedades 
+3) atributo-valor --> la sintaxis a utilizar
+*/
+
+/*
+trabajaremos en el archivo externo
+*/
+
+/*selectores con etiquetas se aplicara a todas las etiquetas qeu contenga h2 */
+
+h2{
+    text-decoration-line: underline;
+}
+
+/*
+selectores con id OJO NO ES RECOMENDABLE SI EL CASO ES DE MUCHA IMPORTANCIA 
+*/
+#estilo-externo{
+    font-size: 60px;
+}
+
+/*
+selectores con class permite ser reutilizable 
+*/
+.clases{
+    font-family:monospace;
+    color: aqua;
+    font-size: 30px;
+}
+
+/*
+selectores avanzados
+*/
+
+/*
+hijos directos y descendientes
+*/
+.hijos_directos > li{
+    background-color: thistle;
+}
+
+.hijos_descendientes b{
+    background-color: rgb(160, 95, 95);
+}
+
+/*
+selectores hermanos general
+*/
+
+.hermanos ~ li{
+    background-color: rgb(160, 95, 95);
+}
+/*
+selectores hermanos adyacente
+*/
+.adyacentes + li{
+    background-color: rgb(160, 95, 95);
+}
